@@ -1,5 +1,8 @@
 # filter-react-props ⚛️✔️
+
 Filter allowed React & DOM props to avoid warnings and unnecessary attributes in HTML output.
+
+It's only 1.3 kB *(gziped UMD version, it's even less when you uglify ES Modules verision)*.
 
 ## Installation
 
@@ -9,6 +12,10 @@ yarn add filter-react-props
 or
 
 npm install --save filter-react-props
+
+or
+
+https://unpkg.com/filter-react-props
 ```
 
 ## Usage
@@ -19,9 +26,14 @@ import filterReactProps from 'filter-react-props'
 or
 
 const filterReactProps = require('filter-react-props')
+or
+
+<script src="https://unpkg.com/filter-react-props"></script>
+const { default: filterProps } = filterReactProps
 ```
 
 ## Use case
+
 Consider this style component:
 
 ```jsx
@@ -50,7 +62,6 @@ const Button = ({ color, ...props }) => (
   />
 )
 ```
-
 
 But you can't apply this solution when you don't know what props will be passed. This is use case for this package:
 
@@ -87,6 +98,13 @@ filterReactProps,
   isPropAllowed
 } from 'filter-react-props'
 ```
+
+## Package versions
+
+Package comes in three versions:
+- UMD - transpiled, bundled, minified (`main` field in `package.json`) - for use in browser or CommonJS.
+- ES Modules - transpiled ES Modules (`module` field in `package.json`) - for tree shaking.
+- ES Next - untranspiled ES Modules (`exnext` field in `package.json`) - [read why](http://2ality.com/2017/06/pkg-esnext.html).
 
 ## Used in
 
