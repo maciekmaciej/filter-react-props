@@ -213,7 +213,7 @@ export const allowedPropsRegExp = new RegExp(
 export const isPropAllowed = propName => allowedPropsRegExp.test(propName)
 
 /**
- * Filter allowed React & DOM props.
+ * Get new object with allowd React & DOM props.
  * 
  * @param {Object} props
  * @returns {Object}
