@@ -26,6 +26,7 @@ import filterReactProps from 'filter-react-props'
 or
 
 const filterReactProps = require('filter-react-props')
+
 or
 
 <script src="https://unpkg.com/filter-react-props"></script>
