@@ -1,4 +1,9 @@
-# filter-react-props ⚛️✔️
+<h1 align="center">
+  <br>
+  ⚛️✔️ filter-react-props
+  <br>
+  <br>
+</h1>
 
 Filter allowed React & DOM props to avoid warnings and unnecessary attributes in HTML output.
 
@@ -6,15 +11,18 @@ It's only 1.3 kB *(gziped UMD version, it's even less when you uglify ES Modules
 
 ## Installation
 
+yarn
 ```
 yarn add filter-react-props
+```
 
-or
-
+npm
+```
 npm install --save filter-react-props
+```
 
-or
-
+cdn
+```
 https://unpkg.com/filter-react-props
 ```
 
