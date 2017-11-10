@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   ⚛️✔️ filter-react-props
   <br>
   <br>
