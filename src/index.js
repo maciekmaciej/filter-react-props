@@ -151,7 +151,6 @@ export const allowedProps = [
   "value",
   "width",
   "wmode",
-  "wrap",
 
   /**
    * RDFa Properties
@@ -206,7 +205,7 @@ export const allowedPropsRegExp = new RegExp(
 
 /**
  * Check if given prop is allowed React or DOM prop.
- * 
+ *
  * @param {String} propName
  * @returns {Boolean}
  */
@@ -214,7 +213,7 @@ export const isPropAllowed = propName => allowedPropsRegExp.test(propName)
 
 /**
  * Get new object with allowd React & DOM props.
- * 
+ *
  * @param {Object} props
  * @returns {Object}
  */
