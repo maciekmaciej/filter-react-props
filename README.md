@@ -112,7 +112,7 @@ filterReactProps,
 Package comes in three versions:
 - UMD - transpiled, bundled, minified (`main` field in `package.json`) - for use in browser or CommonJS.
 - ES Modules - transpiled ES Modules (`module` field in `package.json`) - for tree shaking.
-- ES Next - untranspiled ES Modules (`exnext` field in `package.json`) - [read why](http://2ality.com/2017/06/pkg-esnext.html).
+- ES Next - untranspiled ES Modules (`esnext` field in `package.json`) - [read why](http://2ality.com/2017/06/pkg-esnext.html).
 
 ## Used in
 
